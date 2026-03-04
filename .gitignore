@@ -1,0 +1,37 @@
+# MedCore SaaS - Git Ignore
+
+# Security
+.env
+
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+.metadata/
+.project
+.settings/
+.classpath
+.factorypath
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+.npm/
+*.log
+
+# Docker
+.docker/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+/tmp/
+routers.json

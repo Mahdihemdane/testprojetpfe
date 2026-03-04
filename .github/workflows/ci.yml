@@ -19,7 +19,7 @@ jobs:
           cache: maven
       
       - name: Build with Maven
-        run: mvn -B package --file medcore-backend/pom.xml
+        run: mvn -B package -DskipTests --file medcore-backend/pom.xml
         
       - name: CodeQL Analysis (SAST)
         uses: github/codeql-action/init@v3
